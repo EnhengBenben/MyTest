@@ -1,0 +1,124 @@
+body {
+    margin: 0;
+    font-family: 'Microsoft YaHei',Verdana,Arial,Helvetica,sans-serif;
+    -webkit-text-size-adjust: none;
+    background-color: white
+}
+.title{
+    font-size: 24px;
+    color: #F26634;
+    text-align: center;
+}
+p{
+   line-height: 2px;
+    letter-spacing: 1px;
+}
+.subtitle{
+    font-size: 16px;
+    color: #818181;
+    text-align: center;
+}
+
+.text{
+    text-align: center;
+    font-size: 16px;
+    color: #818181;
+    line-height: 30px;
+}
+.text1{
+    text-align: center;
+    font-size: 16px;
+    color: #4FA5B7;
+    line-height: 30px;
+}
+.text2{
+    text-align: center;
+    font-size: 18px;
+    color: #717171;
+}
+.text3{
+    text-align: center;
+    font-size: 18px;
+    color: #171513;
+}
+.text4{
+    text-align: center;
+    font-size: 18px;
+    color: #818181;
+}
+
+.btn{
+    background-color: #F26634;
+    font-size: 19px;
+    color: #FFFFFE;
+}
+.btn1{
+    background-color: #FEEFEA;
+    font-size: 12px;
+    color: #F26634;
+    border-color: #F26634;
+    border-width: 1px;
+    height: 36px;
+    width: 52px;
+    border-radius: 5px;
+}
+.btn2{
+      background-color: #FEEFEA;
+      font-size: 14px;
+      color: #F26634;
+      border-color: #F26634;
+      border-width: 1px;
+      height: 56px;
+      width: 100px;
+      border-radius: 5px;
+  }
+.btn3{
+    background-color: #F26634;
+    font-size: 17px;
+    color: #FFFFFE;
+    height: 40px;
+    width: 80px;
+    border-radius: 5px;
+    border-style: none;
+}
+.btn:hover{
+    background-color: #A25236;
+    color: #FFFFFE;
+}
+.btn1:hover{
+    background-color: #F8B299;
+    color: #F26634;
+    border-color: #F26634;
+}
+
+.btn2:hover{
+    background-color: #F8B299;
+    color: #F26634;
+    border-color: #F26634;
+}
+.img{
+    text-align: center;
+}
+
+.bean_div{
+    height: 250px;
+    width: 100%;
+    background-color: #2B2E2F;
+}
+
+.row_div{
+    height: 20%;
+}
+
+.message1{
+    width:85%;
+    vertical-align: top;
+    position:relative;
+    left: 42px;top:-25px;
+    color: #2B2E2F;
+    font-size: 16px
+}
+.img1{
+    margin-top: 22px;
+    margin-left: 10px
+}

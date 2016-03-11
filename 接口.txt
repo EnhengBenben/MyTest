@@ -1,0 +1,33 @@
+-------注册-----
+获取验证码
+post:/wx/code    post: phone_number     return "ok"/"used"
+注册
+post:/wx/sign_up     post:phone_number,password,code  return "ok"/"false"
+
+登录
+post:/wx/log_in     post:phone_number,password  return id/"false"
+
+课程结果
+put:/wx/result    put:  applier_id:***       return {[],[],[]}
+[]  空
+
+
+操作
+put:/wx/confirm_accept  put:result_id 
+put:/wx/confirm_reject  put:result_id
+
+
+
+
+详细信息
+put :wx/course/   put:course_id        return:/tabele(course)
+
+
+提交 ：submitted_at
+确认： passed_at
+拒绝 rejected_at
+调班  transfer_id
+延期 postpone_id
+接受：confirm 1 
+confirmed_at
+拒绝 confirm 0

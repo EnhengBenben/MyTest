@@ -1,0 +1,300 @@
+* {
+    padding: 0;
+    margin: 0;
+
+}
+
+html {
+    font-size: 62.5%;
+
+}
+
+body {
+    font-family: "微软雅黑";
+    font-size: 1rem;
+}
+
+h2 {
+    margin: 0;
+    font-size: 2.0rem;
+    color: #29bc98;
+    font-weight: 800;
+    text-align: center;
+    word-spacing: 10px;
+}
+
+.black-model {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #000000;
+    opacity: 0;
+    left: 0;
+    top: 0;
+    transition: opacity 1s;
+    -webkit-transition: opacity 1s;
+
+}
+
+.icon-out-box {
+    display: table;
+    width: 100%;
+    height: 30px;
+    margin: 20px 0;
+}
+
+.icon-in-box {
+    display: table-cell;
+    width: 40%;
+    height: 30px;
+    vertical-align: middle;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.apply-font-and-line {
+    width: 100%;
+    margin-top: 40px;
+}
+
+.apply-font-and-line img {
+    width: 100%;
+}
+
+._input {
+    width: 80%;
+    height: 50px;
+    margin: 0 auto;
+    display: block;
+    border: 1px solid #dedede;
+    padding-left: 5%;
+    font-size: 1.6rem;
+}
+
+#tel {
+    margin-top: 35px;
+}
+#submit-button {
+    width: 80%;
+    height: 54px;
+    background-color: #29bc98;
+    display: block;
+    margin: 0 auto;
+    margin-top: 30px;
+    text-align: center;
+    color: #FFF;
+    line-height: 54px;
+    border: 0;
+    font-size: 2.0rem;
+    position: relative;
+}
+
+
+.no-id {
+    width: 80%;
+    font-size: 1.4rem;
+    color: #999;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.register {
+    width: 80%;
+    height: 54px;
+    border: 1px solid #29bc98;
+    display: block;
+    margin: 0 auto;
+    background-color: #FFF;
+    font-size: 2.0rem;
+    color: #29bc98;
+    position: relative;
+    text-align: center;
+    line-height: 54px;
+}
+
+.apply-footer {
+    width: 100%;
+    height: 40px;
+    position: fixed;
+    bottom: 10px;
+    text-align: center;
+    color: #999;
+    font-size: 1.2rem;
+}
+
+/*注册页样式*/
+#code {
+    width: 47%;
+    margin-left: 10%;
+    float: left;
+}
+
+.code {
+    width: 30%;
+    height: 50px;
+    margin-left: 3%;
+    background-color: #29bc98;
+    float: left;
+    color: #FFF;
+    font-size: 1.6rem;
+    border: 0;
+    position: relative;
+    text-align: center;
+    line-height: 50px;
+}
+
+.code, #code {
+    margin-top: 20px;
+    margin-bottom: 40px;
+
+}
+
+/*详情页样式*/
+.detail-top {
+    width: 93.75%;
+    margin: 0 auto;
+    margin-top: 25px;
+    border-bottom: 1px solid #FFF;
+    font-size: 1.6rem;
+    padding-bottom: 10px;
+}
+.detail-top p,.detail-content p{
+    margin: 0 0 3px;
+}
+.detail-content {
+    width: 93.75%;
+    margin: 0 auto;
+    font-size: 1.6rem;
+    padding-top: 20px;
+}
+
+/*状态页样式*/
+
+.condition-content {
+    width: 93.75%;
+    margin: 35px auto;
+    background-color: #FFF;
+
+}
+
+.condition-title {
+    width: 100%;
+    padding: 20px 0;
+    background-color: #273F38;
+    display: block;
+    position: relative;
+}
+
+.title-font {
+    color: #FFF;
+    text-align: center;
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+    line-height: 24px;
+    font-size: 1.8rem;
+}
+
+.title-icon {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    margin-top: -9px;
+}
+
+.key {
+    width: 93.75%;
+    background-color: #FFF;
+    padding-top: 50px;
+    position: relative;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.in-apply {
+    text-align: center;
+    font-size: 1.6rem;
+    color: #7f7f7f;
+}
+
+.content-box {
+    margin-top: 30px;
+    height: 66px;
+}
+
+.study-content-box {
+    margin-top: 10px;
+    padding: 10px 0;
+    margin-bottom: 30px;
+}
+
+.until-date {
+    font-size: 1.6rem;
+    color: #535353;
+    padding-bottom: 24px;
+    margin:0;
+}
+
+
+.key-footer {
+    width: 93.75%;
+    margin: 0 auto;
+    position: relative;
+    bottom: 0;
+    line-height: 25px;
+    color: #bfbfbf;
+    text-align: center;
+    font-size: 1.6rem;
+    border-top: 1px solid #ededed;
+    padding: 20px 0;
+    margin-top: 35px;
+}
+
+.study {
+    width: 36%;
+    height: 36px;
+    text-align: center;
+    line-height: 36px;
+    float: left;
+    color: #F8AC59;
+    border: 1px solid #F8AC59;
+    margin: 0 7%;
+    font-size: 1.6rem;
+    position: relative;
+    margin-top: -10px;
+}
+
+.study-yes {
+    float: right;
+    border: 1px solid #29bc98;
+    color: #29bc98;
+}
+@media screen and (max-width: 320px) {
+    .apply-footer {
+        position: relative;
+        bottom: -20px;
+    }
+
+    h3 {
+        font-size: 1.8rem;
+    }
+
+    .detail-top {
+        font-size: 1.0rem;
+    }
+
+    .detail-content {
+        font-size: 1.2rem;
+    }
+
+    .title-font {
+        font-size: 1.6rem;
+    }
+}
+
+@media screen and (max-height: 480px) {
+    .apply-footer {
+        position: relative;
+        bottom: -20px;
+    }
+}
